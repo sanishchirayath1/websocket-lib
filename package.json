@@ -1,14 +1,21 @@
 {
   "name": "websocket-lib",
-  "version": "1.0.0",
-  "description": "wesocket library for your needs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Sanish Chirayath",
+    "email": "sanishchirayath@gmail.com"
   },
-  "keywords": [
-    "websocket"
-  ],
-  "author": "sanish chiarayath",
-  "license": "MIT"
+  "description": "A simple websocket library",
+  "license": "MIT",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
 }

@@ -1,12 +1,12 @@
-enum WebSocketState {
+export enum WebSocketState {
   CONNECTING,
   OPEN,
   CLOSING,
   CLOSED,
 }
 
-class WebSocketClient {
-  private ws: WebSocket;
+export class WebSocketClient {
+  private ws!: WebSocket;
   private state: WebSocketState;
   private retryCount: number;
   private maxRetryCount: number;
