@@ -1,5 +1,5 @@
 {
-  "name": "websocket-lib",
+  "name": "@sanish/websocket-lib",
   "author": {
     "name": "Sanish Chirayath",
     "email": "sanishchirayath@gmail.com"
@@ -8,14 +8,31 @@
   "license": "MIT",
   "private": false,
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "devDependencies": {
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanishchirayath1/websocket-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanishchirayath1/websocket-lib.git/issues"
+  },
+  "homepage": "https://github.com/sanishchirayath1/websocket-lib.git#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/sanishchirayath"
   }
 }
