@@ -33,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/sanishchirayath1/websocket-lib.git/issues"
   },
+  "publishConfig": { "@sanishchirayath:registry": "https://npm.pkg.github.com" },
   "homepage": "https://github.com/sanishchirayath1/websocket-lib.git#readme"
 }
