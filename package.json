@@ -7,6 +7,13 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "websocket",
+    "websocket-lib",
+    "websocket-library",
+    "websocket-library-js",
+    "websocket-library-js-ts"
+  ],
   "files": [
     "/dist"
   ],
@@ -22,10 +29,7 @@
     "build": "npx tsc",
     "publish": "npm publish --access public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sanishchirayath1/websocket-lib.git"
-  },
+  "repository": "git://github.com/sanishchirayath1/websocket-lib.git",
   "bugs": {
     "url": "https://github.com/sanishchirayath1/websocket-lib.git/issues"
   },
