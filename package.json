@@ -29,10 +29,15 @@
     "build": "npx tsc",
     "publish": "npm publish --access public"
   },
-  "repository": "git://github.com/sanishchirayath1/websocket-lib.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanishchirayath1/websocket-lib.git"
+  },
   "bugs": {
     "url": "https://github.com/sanishchirayath1/websocket-lib.git/issues"
   },
-  "publishConfig": { "@sanishchirayath:registry": "https://npm.pkg.github.com" },
+  "publishConfig": {
+    "@sanishchirayath:registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/sanishchirayath1/websocket-lib.git#readme"
 }
