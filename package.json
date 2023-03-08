@@ -1,5 +1,5 @@
 {
-  "name": "@sanish/websocket-lib",
+  "name": "@sanishchirayath1/websocket-lib",
   "author": "Sanish Chirayath",
   "description": "A simple websocket library",
   "license": "MIT",
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/sanishchirayath1/websocket-lib.git#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/sanishchirayath"
+    "registry": "https://npm.pkg.github.com/sanishchirayath1"
   }
 }
