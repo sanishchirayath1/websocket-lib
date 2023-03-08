@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,6 @@
   },
   "homepage": "https://github.com/sanishchirayath1/websocket-lib.git#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/sanishchirayath"
+    "registry": "https://npm.pkg.github.com/sanishchirayath1"
   }
 }
